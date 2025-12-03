@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 font-sans; }
+
+/* Tiny UI helpers */
+.input { @apply border border-gray-300 p-2 rounded w-full; }
+.textarea { @apply border border-gray-300 p-2 rounded w-full min-h-[80px]; }
+.btn { @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700; }
+.btn-danger { @apply bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600; }
